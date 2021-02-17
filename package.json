@@ -1,0 +1,25 @@
+{
+  "name": "bbcookathome",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "dom-confetti": "fatbattk/dom-confetti",
+    "howler": "^2.2.1",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.32.4"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.1",
+    "@types/node": "^14.14.21",
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.3"
+  }
+}

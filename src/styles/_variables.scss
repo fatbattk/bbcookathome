@@ -1,0 +1,10 @@
+$base-red: #ed4264;
+$base-yellow: #ffedbc;
+$base-font-color: #fff;
+$base-font-family: 'Comic Sans MS', sans-serif;
+
+@mixin background-gradient($direction: to bottom) {
+  background: $base-red;
+  background: -webkit-linear-gradient($direction, $base-red, $base-yellow);
+  background: linear-gradient($direction, $base-red, $base-yellow);
+}
